@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Keisuke's hack",
+  "version": "1.0.0",
+  "description": "Hacking EDA Student Handbook website",
+  "icons": {"128": "poop.png"},
+  "content_scripts": [
+    {
+      "matches": ["https://handbook.eda.nz/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
